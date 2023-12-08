@@ -18,32 +18,7 @@ footer {
     flex-shrink: 0;
 }
 
-header {
 
-    height: 15.375rem;
-    padding: 1px;
-    background-color: rgba(61, 147, 212, 1);
-}
-
-#titleHeader {
-    margin: 1rem;
-    color: white;
-}
-
-#listMenuHeader {
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-align: center;
-
-}
-
-#listMenuHeader li {
-    background-color: rgba(166, 77, 204, 1);
-    margin: 0.7rem;
-    padding: 0.3rem;
-    width: 10rem;
-    border-radius: 1.25rem;
-}
 
 a {
     text-decoration: none;
@@ -109,14 +84,7 @@ li {
 }
 
 
-@media screen and (min-width: 280px) and (max-width: 341px) {
 
-
-    header {
-        height: 20rem;
-        width: 100%
-    }
-}
 
 @media screen and (min-width: 626px) and (max-width: 1020px) {
     #linkNextPage {

@@ -1,0 +1,75 @@
+header {
+
+    height: 15.375rem;
+    padding: 1px;
+    background-color: rgba(61, 147, 212, 1);
+}
+
+#titleHeader {
+    margin: 1rem;
+    color: white;
+}
+
+#listMenuHeader {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+#listMenuHeader li {
+    background-color: rgba(166, 77, 204, 1);
+    margin: 0.7rem;
+    padding: 0.3rem;
+    width: 10rem;
+    border-radius: 1.25rem;
+}
+#divMenuHeader {
+    margin: 0.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 280px) and (max-width: 341px) {
+
+
+    header {
+        height: 20rem;
+        width: 100%
+    }
+}
+
+@media screen and (min-width:1021px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height:20vh; 
+    }
+    #pFooter {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    #divHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; 
+    }
+
+    #listMenuHeader {
+        display: flex;
+        margin-left: auto;
+    }
+
+    #divMenuHeader{
+        display: flex;
+        align-items: baseline;
+    }
+    #listMenuHeader li {
+        margin-right: 20px; 
+    }
+  }
