@@ -1,12 +1,25 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
 }
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
 header {
- 
+
     height: 15.375rem;
     padding: 1px;
     background-color: rgba(61, 147, 212, 1);
@@ -82,20 +95,16 @@ li {
 }
 
 
-footer {
-    margin-top: auto; /* Empurra o footer para o final da página */
-}
-
 #pFooter {
     font-size: 1.1rem;
     color: white;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 10px;
 }
 
 #divP-Footer {
-   
+
     background-color: rgba(61, 147, 212, 1);
 }
 

@@ -3,7 +3,7 @@
     header {
         display: flex;
         flex-direction: column;
-        height:18vh; 
+        height:20vh; 
     }
     #pFooter {
         padding: 20px;
