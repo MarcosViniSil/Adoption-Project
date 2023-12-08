@@ -1,0 +1,32 @@
+@media screen and (min-width:1021px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height:18vh; 
+    }
+    #pFooter {
+        padding: 20px;
+        font-size: 1.3rem;
+    }
+
+    #divHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; 
+    }
+
+    #listMenuHeader {
+        display: flex;
+        margin-left: auto;
+    }
+
+    #divMenuHeader{
+        display: flex;
+        align-items: baseline;
+    }
+    #listMenuHeader li {
+        margin-right: 20px; 
+    }
+  }

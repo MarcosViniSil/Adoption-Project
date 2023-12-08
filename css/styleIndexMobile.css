@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+ 
+    height: 15.375rem;
+    padding: 1px;
+    background-color: rgba(61, 147, 212, 1);
+}
+
+#titleHeader {
+    margin: 1rem;
+    color: white;
+}
+
+#listMenuHeader {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+#listMenuHeader li {
+    background-color: rgba(166, 77, 204, 1);
+    margin: 0.7rem;
+    padding: 0.3rem;
+    width: 10rem;
+    border-radius: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+#divMenuHeader {
+    margin: 0.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textMotivation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textMotivationP {
+    color: rgba(31, 123, 193, 1);
+    margin: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    width: 500px;
+}
+
+#linkNextPage {
+
+    background-color: rgba(166, 77, 204, 1);
+    font-size: 1.3rem;
+    width: 15rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1.30rem;
+
+}
+
+#divLinkNextPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    margin-top: auto; /* Empurra o footer para o final da página */
+}
+
+#pFooter {
+    font-size: 1.1rem;
+    color: white;
+    width: 90%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+#divP-Footer {
+   
+    background-color: rgba(61, 147, 212, 1);
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 341px) {
+
+
+    header {
+        height: 20rem;
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 626px) and (max-width: 1020px) {
+    #linkNextPage {
+        top: 61%;
+    }
+}
