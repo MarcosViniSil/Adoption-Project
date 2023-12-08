@@ -1,0 +1,6 @@
+basse => https://i.postimg.cc/d1SxGzV1/basse-M.jpg
+cat1 => https://i.postimg.cc/0N5vn1Pd/cat1-M.jpg
+cat2 => https://i.postimg.cc/tRnj25Qf/cat2-M.jpg
+cat3 => https://i.postimg.cc/255pvd70/cat3-M.jpg
+dalmatian=>https://i.postimg.cc/qR9W9PVF/dalmatian-M.jpg
+labrador retriever=> https://i.postimg.cc/wj0Z6yYL/labrador-retriever-M.jpg
