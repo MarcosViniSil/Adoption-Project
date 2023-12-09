@@ -7,7 +7,9 @@
 - Vercel (deploy)
 - gimp (manipulação de imagens)
 - postimg (imagens em nuvem)
+- Figma
   ### Para a criação do site foi utilizada a técnica mobile first.
+## Link figma: **[Figma](https://www.figma.com/file/5DBtCmYXFW3KRyicV9SpS5/Projeto-ado%C3%A7%C3%A3o?type=design&node-id=0-1&mode=design&t=sMo8MQVwQhYa5Ai7-0)**
   ## Imagens do site e sua responsividade:
   <p align="center">
 
