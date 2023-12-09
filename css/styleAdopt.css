@@ -52,18 +52,18 @@ label {
 }
 
 .pName {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin: 16px;
 }
 
 .pDescription {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin: 16px;
 
 }
 
 .pDescription2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin: 16px;
     margin-top: -4px;
 }
@@ -97,7 +97,7 @@ a {
     height: 44px;
     border-radius: 25px;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,8 +157,7 @@ a {
     #image1Cat,
     #image2Cat,
     #image3Cat {
-        height: 700px;
-
+        height: 562px;
         border-radius: 25px;
         padding: 20px;
         font-size: 150%;

@@ -30,6 +30,7 @@
     border-radius: 10px;
     background-color: #4DA7EC;
     border: none;
+    cursor: pointer;
 }
 
 #ButtonAdopt {
