@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação</title>
+    <link rel="stylesheet" href="../css/styleGeneral.css">
+    <link rel="shortcut icon" href="../images/favicon/icons8-dog-sit-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styleHeaderGlobal.css">
+    <link rel="stylesheet" href="../css/styleFormAdopt.css">
+</head>
+<body>
+    <header>
+        <div id="divHeader">
+            <h1 id="titleHeader">
+                🐶 Próximo amigo,
+                adoção de animais 🐶
+            </h1>
+            <nav>
+                <div id="divMenuHeader">
+                    <ul id="listMenuHeader">
+                        <li><a href="../html/description.html#contacts">Contatos</a></li>
+                        <li><a href="../html/description.html#regulation">Regulamentos</a></li>
+                        <li><a href="../html/description.html#principles">Princípios</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="divH2Form">
+            <h2>Parabéns pela decisão, para concluir o processo de adoção preeencha o formulário abaixo  e nossa equipe irá
+                entrar em contato o mais breve possível.</h2>
+        </div>
+        <div id="formAdopt">
+            <h3 style="text-align: center;padding: 10px;">Formulário de adoção</h3>
+            <div class="inputsAnLabel">
+                <label id="labelName" for="name">Nome</label>
+                <input id="name" type="text"> <br>
+            </div>
+            <div class="inputsAnLabel">
+                <label id="labelTelephone"for="telephone">Telefone:</label>
+                <input id="telephone" type="number"> <br>
+            </div>
+            <div class="inputsAnLabel">
+                <label id="labelEmail" for="email">Email:</label>
+                <input type="email" name="email" id="email"> <br>
+            </div>
+            <div class="inputsAnLabel">
+                <label id="labelAdress" for="adress">Endereço:</label>
+                <input id="adress" type="text"> <br>
+            </div>
+            <div class="inputsAnLabel">
+                <label id="labelNext" for="nextFriend">Próximo amigo:</label>
+                <input id="nameFriend" type="text" placeholder="Digite o nome do seu próximo amigo" id="nextFriend">
+            </div>
+            <div id="ButtonAdopt" onclick="sendForm()"><button id="buttonSubmit">Adotar</button></div>
+        </div>
+    </main>
+</body>
+<script src="../js/formAdoption.js"></script>
+</html>
