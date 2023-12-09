@@ -1,0 +1,125 @@
+:root {
+    --even: #4DA7EC;
+    --odd: #AD57D1;
+  }
+body {
+    background-color: #D9D9D9;
+}
+
+#pFilter {
+    display: inline;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+#filterDogOrCat {
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+input {
+    width: 24px;
+    height: 19px;
+}
+
+label {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-top: -2px;
+    font-size: 1.3rem;
+}
+
+#image1Dog,
+#image2Dog,
+#image3Dog,
+#image1Cat,
+#image2Cat,
+#image3Cat {
+    width: 75px;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.pName {
+    font-size: 1.7rem;
+    margin: 16px;
+}
+
+.pDescription {
+    font-size: 1.7rem;
+    margin: 16px;
+
+}
+
+.pDescription2 {
+    font-size: 1.7rem;
+    margin: 16px;
+    margin-top: -4px;
+}
+
+
+#image1Dog>img,
+#image2Dog>img,
+#image3Dog>img,
+#image1Cat>img,
+#image2Cat>img,
+#image3Cat>img {
+    width: 193px;
+    height: 148px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#linkDog1,
+#linkDog2,
+#linkDog3,
+#linkCat1,
+#linkCat2,
+#linkCat3 {
+    background-color:  var(--even);
+    width: 157px;
+    height: 44px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#linkDog2 {
+   background-color:  var(--odd);
+
+}
+
+#linkDog3 {
+    background-color:  var(--even);
+
+}
+
+#linkCat1 {
+    background-color:  var(--odd);
+}
+
+#linkCat2 {
+    background-color:  var(--even);
+}
+
+#linkCat3 {
+    background-color:  var(--odd);
+}
