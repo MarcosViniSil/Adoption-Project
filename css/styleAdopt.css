@@ -1,7 +1,8 @@
 :root {
     --even: #4DA7EC;
     --odd: #AD57D1;
-  }
+}
+
 body {
     background-color: #D9D9D9;
 }
@@ -37,7 +38,7 @@ label {
 #image1Cat,
 #image2Cat,
 #image3Cat {
-    width: 75px;
+    width: 318px;
     background-color: white;
     border-radius: 25px;
     margin: auto;
@@ -89,7 +90,7 @@ a {
 #linkCat1,
 #linkCat2,
 #linkCat3 {
-    background-color:  var(--even);
+    background-color: var(--even);
     width: 157px;
     height: 44px;
     border-radius: 25px;
@@ -103,23 +104,109 @@ a {
 }
 
 #linkDog2 {
-   background-color:  var(--odd);
+    background-color: var(--odd);
 
 }
 
 #linkDog3 {
-    background-color:  var(--even);
+    background-color: var(--even);
 
 }
 
 #linkCat1 {
-    background-color:  var(--odd);
+    background-color: var(--odd);
 }
 
 #linkCat2 {
-    background-color:  var(--even);
+    background-color: var(--even);
 }
 
 #linkCat3 {
-    background-color:  var(--odd);
+    background-color: var(--odd);
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px) {
+    #image1Dog,
+#image2Dog,
+#image3Dog,
+#image1Cat,
+#image2Cat,
+#image3Cat {
+    width: 270px;
+}
+}
+@media screen and (min-width: 840px) and (max-width: 1335px) {
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto; 
+        gap: 30px; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+    }
+
+    #image1Dog,
+    #image2Dog,
+    #image3Dog,
+    #image1Cat,
+    #image2Cat,
+    #image3Cat {
+
+
+        border-radius: 25px;
+        padding: 20px;
+        font-size: 150%;
+    }
+}
+@media screen and (min-width: 1336px) and (max-width: 1700px) {
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        gap: 30px; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+    }
+
+    #image1Dog,
+    #image2Dog,
+    #image3Dog,
+    #image1Cat,
+    #image2Cat,
+    #image3Cat {
+
+
+        border-radius: 25px;
+        padding: 20px;
+        font-size: 150%;
+    }
+}
+@media screen and (min-width: 1701px){
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto; 
+        gap: 30px; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+    }
+
+    #image1Dog,
+    #image2Dog,
+    #image3Dog,
+    #image1Cat,
+    #image2Cat,
+    #image3Cat {
+
+
+        border-radius: 25px;
+        padding: 20px;
+        font-size: 150%;
+    }
 }
