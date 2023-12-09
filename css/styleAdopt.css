@@ -42,6 +42,7 @@ label {
     background-color: white;
     border-radius: 25px;
     margin: auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,25 +127,27 @@ a {
 }
 
 @media screen and (min-width: 300px) and (max-width: 350px) {
+
     #image1Dog,
-#image2Dog,
-#image3Dog,
-#image1Cat,
-#image2Cat,
-#image3Cat {
-    width: 270px;
+    #image2Dog,
+    #image3Dog,
+    #image1Cat,
+    #image2Cat,
+    #image3Cat {
+        width: 270px;
+    }
 }
-}
+
 @media screen and (min-width: 840px) and (max-width: 1335px) {
 
 
     .wrapper {
         display: grid;
-        grid-template-columns: auto auto; 
-        gap: 30px; 
-        justify-content: center; 
-        align-items: center; 
-        margin: 0 auto; 
+        grid-template-columns: auto auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     #image1Dog,
@@ -153,23 +156,24 @@ a {
     #image1Cat,
     #image2Cat,
     #image3Cat {
-
+        height: 700px;
 
         border-radius: 25px;
         padding: 20px;
         font-size: 150%;
     }
 }
+
 @media screen and (min-width: 1336px) and (max-width: 1700px) {
 
 
     .wrapper {
         display: grid;
-        grid-template-columns: auto auto auto; 
-        gap: 30px; 
-        justify-content: center; 
-        align-items: center; 
-        margin: 0 auto; 
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     #image1Dog,
@@ -178,23 +182,24 @@ a {
     #image1Cat,
     #image2Cat,
     #image3Cat {
-
-
+        height: 700px;
+    
         border-radius: 25px;
         padding: 20px;
         font-size: 150%;
     }
 }
-@media screen and (min-width: 1701px){
+
+@media screen and (min-width: 1701px) {
 
 
     .wrapper {
         display: grid;
-        grid-template-columns: auto auto auto auto; 
-        gap: 30px; 
-        justify-content: center; 
-        align-items: center; 
-        margin: 0 auto; 
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     #image1Dog,
@@ -204,7 +209,7 @@ a {
     #image2Cat,
     #image3Cat {
 
-
+        height: 700px;
         border-radius: 25px;
         padding: 20px;
         font-size: 150%;
